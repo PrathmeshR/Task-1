@@ -1,0 +1,75 @@
+.list-differences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.input-container {
+  grid-column: span 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.input-container textarea {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  resize: vertical;
+}
+
+.compute-button {
+  margin-top: 20px;
+  background-color: #4c87bf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.compute-button:hover {
+  background-color: #3a6b99;
+}
+
+.result-container {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.result-container div {
+  font-weight: bold;
+  color: #555;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4c87bf;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.bio {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
